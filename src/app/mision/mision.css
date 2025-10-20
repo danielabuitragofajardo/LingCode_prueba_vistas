@@ -1,12 +1,19 @@
 .mision-section1{
     background-color: black;
     color: white;
-    padding: 40px 0px;
+    /* padding: 40px 0px; */
+    padding: 6rem 0rem 6rem 0rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    /* border: solid 1px red; */
 }
+
+.container1{
+    width: 1000px;
+}
+
 .imagen1{
     display: flex;
     align-items: center;
@@ -45,23 +52,21 @@ h1{
 }
 
 .container2{
-    width: 50%;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    
 }
 
 .imagen2 img{
-    width: 350px;
+    width: 30rem;
     height: auto;
     border-radius: 50px;
     margin-right: 40px;
 }
 .misiontexto2{
     /* border: solid 1px red; */
-    width: 80%;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
