@@ -1,0 +1,76 @@
+header{
+    display: flex;
+    background-color: black;
+    font-size: 1.2rem;
+    height: 5rem;
+    border-bottom: solid 1px #ffffff50 ;
+}
+
+.div-logo{
+    /* border: solid 2px red; */
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 5rem;
+}
+
+.navbar{
+    /* border: solid 2px red; */
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    transition: 0.1s;
+} .navbar a:hover{
+    color: #dfdfdf;
+    transform: scale(1.03);
+} .navbar a:active{
+    transform: scale(0.97); 
+}
+
+.div-btns{
+    /* border: solid 2px red; */
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.div-btns button{
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: 0.2s;
+} .div-btns button:active{
+    transform: scale(0.97);
+}
+
+.login-btn{
+    background-color: transparent;
+    border: solid 1px gray;
+} .login-btn:hover{
+    background-color: #303030;
+} 
+
+.register-btn{
+    background-color: #1194FF;
+    border: none;
+} .register-btn:hover{
+    background-color: #32a3ff;
+}
+
+.div-btns a{
+    text-decoration: none;
+    color: white;
+}

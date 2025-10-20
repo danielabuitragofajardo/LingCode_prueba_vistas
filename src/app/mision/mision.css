@@ -1,0 +1,106 @@
+.mision-section1{
+    background-color: black;
+    color: white;
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.imagen1{
+    display: flex;
+    align-items: center;
+}
+.imagen1 img{
+    width: 350px;
+    height: auto;
+    border-radius: 50px;
+    margin-right: 40px;  
+}
+h1{
+    background-color: black;
+    color: white;
+    font-size: 70px; 
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.misiontexto1{
+    max-width: 500px; 
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: end;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+.mision-section2{
+    background-color: rgb(237, 237, 237);
+    color: black;
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.imagen2 img{
+    width: 350px;
+    height: auto;
+    border-radius: 50px;
+    margin-right: 40px;
+}
+.misiontexto2{
+    /* border: solid 1px red; */
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+}
+.mision-section3{
+    background-color: rgb(237, 237, 237);
+    color: black;
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container3 {
+  display: flex;
+  align-items: center;            
+  justify-content: space-between; 
+  max-width: 1000px;
+  width: 100%;
+  flex-wrap: wrap;               
+}
+.imagen3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imagen3 img{
+    width: 350px;
+    height: auto;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+.misiontexto3{
+    max-width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+}
